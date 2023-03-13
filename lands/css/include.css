@@ -1,0 +1,320 @@
+:root{
+  --green:#1a6e5a;
+  --dgreen:#0a3027;
+  --grey:#596161;
+  --ash:#202121;
+  --light:#ebebeb;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Segoe UI;
+  list-style: none;
+  text-decoration: none;
+}
+
+.clear{
+  clear: both;
+}
+
+body{
+  width: 1360px;
+  margin: 0px auto;
+  background: var(--light);
+}
+
+section{
+    width: 100%;
+    background: var(--green);
+    height: 80px;
+    margin: 0px auto;
+}
+
+.logo{
+  width: 50px;
+  float: left;
+  margin: 0px 20px;
+  background: var(--light);
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.logo h2{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: var(--dgreen);
+  text-align: center;
+  font-weight: bold;
+  margin: 0px auto;
+}
+
+
+.headersign{
+  width: 80px;
+  float: right;
+  margin: 15px;
+  border: 2px solid var(--dgreen);
+  text-align: center;
+  padding: 10px;
+  background: var(--light);
+    margin-bottom: 50px;
+}
+
+.headersign:hover{
+  border: 2px solid var(--light);
+  background: var(--dgreen);
+  color: var(--light);
+}
+
+.headersign a:hover{
+  color: var(--light);
+
+}
+
+.headersign a{
+  color: var(--dgreen);
+  padding: 10px;
+}
+
+/*styling login form*/
+.form-div{
+  width: 320px;
+  height: 470px;
+  background: var(--ash);
+  margin: 0px auto;
+  display: block;
+  padding: 10px;
+}
+
+.form-div form{
+  padding: 10px;
+}
+
+.form-div form h3{
+  text-align: center;
+  font-size: 35pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 20px;
+}
+
+#reseth3{
+  text-align: center;
+  font-size: 30pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 20px;
+}
+
+.form-div form p{
+  padding: 5px;
+  color:  var(--light);
+  font-size: 15pt;
+}
+
+.form-div form p input{
+  padding: 10px;
+  border: none;
+  width: 270px;
+  margin-top: 10px;
+}
+
+.form-div form p input[type=checkbox]{
+  width: 10px;
+}
+
+.form-div form p input[type=submit]{
+  width: 290px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div form p input[type=submit]:hover{
+  background: var(--dgreen);
+  cursor: pointer;
+}
+
+.form-div form p a{
+  color: var(--light);
+  padding: 10px auto;
+}
+
+.form-div form p a:hover{
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.verify-message{
+  width: 320px;
+  margin: 5px auto;
+  color: #f44141;
+}
+
+/*styling signup*/
+.form-div-signup{
+  width: 700px;
+  height: 500px;
+  background: var(--ash);
+  margin: 0px auto;
+  display: block;
+  padding: 10px;
+}
+
+.form-div-signup form{
+  padding: 10px;
+}
+
+
+.form-div-signup form h3{
+  text-align: center;
+  font-size: 30pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 5px;
+}
+
+.form-div-signup form p{
+  float: left;
+  width: 48.5%;
+  color:  var(--light);
+  margin: 5px 5px;
+}
+.form-div-signup form p a{
+  color: var(--light);
+  padding: 10px auto;
+}
+
+.form-div-signup form p a:hover{
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.form-div-signup form p input, .form-div-signup form p select{
+  padding: 10px;
+  border: none;
+  width: 270px;
+  margin-top: 2px;
+}
+
+.form-div-signup form p textarea{
+  padding: 10px;
+  border: none;
+  width: 270px;
+  margin-top: 2px;
+}
+
+.form-div-signup form p input[type=submit]{
+  width: 290px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div-signup form p input[type=checkbox]{
+  width: 0px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div-signup form p input[type=submit]:hover{
+  background: var(--dgreen);
+  cursor: pointer;
+}
+
+
+/*styling media queries*/
+@media screen and (max-width:1366px) {
+    body{
+      width: 100%;
+    }
+    .logo{
+      width: 50px;
+      float: left;
+      margin: 0px 20px;
+      background: var(--light);
+      padding: 15px;
+      border-radius: 50px;
+    }
+
+    .logo h2{
+      font-weight: lighter;
+      font-size: 10pt;
+      color: var(--dgreen);
+      text-align: center;
+      font-weight: bold;
+      margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    body{
+      width: 100%;
+    }
+
+    .logo{
+      width: 50px;
+      float: left;
+      margin: 0px 20px;
+      background: var(--light);
+      padding: 15px;
+      border-radius: 50px;
+    }
+
+    .logo h2{
+      font-weight: lighter;
+      font-size: 10pt;
+      color: var(--dgreen);
+      text-align: center;
+      font-weight: bold;
+      margin: 0px auto;
+    }
+    .form-div{
+      width: 320px;;
+      padding: 0px;
+    }
+    .form-div form p input{
+      border: none;
+      width: 92%;
+      margin-top: 10px;
+    }
+    .form-div form p input[type=submit]{
+      width: 100%;
+    }
+}
+
+
+@media screen and (max-width:320px){
+body{
+  width: 320px;
+}
+.logo{
+  width: 50px;
+  float: left;
+  margin: 0px 20px;
+  background: var(--light);
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.logo h2{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: var(--dgreen);
+  text-align: center;
+  font-weight: bold;
+  margin: 0px auto;
+}
+
+.form-div{
+  width: 80%;
+  padding: 0px;
+}
+
+.form-div form p input{
+  border: none;
+  width: 92%;
+  margin-top: 10px;
+}
+.form-div form p input[type=submit]{
+  width: 100%;
+}

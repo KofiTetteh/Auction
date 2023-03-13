@@ -1,0 +1,606 @@
+:root{
+  --green:#1a6e5a;
+  --dgreen:#0a3027;
+  --grey:#596161;
+  --ash:#202121;
+  --light:#ebebeb;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Segoe UI;
+  list-style: none;
+  text-decoration: none;
+}
+
+.clear{
+  clear: both;
+}
+
+body{
+  width: 1360px;
+  margin: 0px auto;
+  background: var(--light);
+}
+
+nav{
+    width: 100%;
+    background: var(--green);
+    height: 60px;
+    margin: 0px auto;
+}
+
+.logo{
+  width: 50px;
+  float: left;
+  margin: 0px 20px;
+  background: var(--light);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.logo h2{
+  font-weight: lighter;
+  font-size: 7.5pt;
+  color: var(--dgreen);
+  text-align: center;
+  font-weight: bolder;
+  margin: 0px auto;
+}
+
+.headlink{
+  width: 900px;
+  float: right;
+  padding: 0px;
+}
+
+.headlink ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.headlink ul li{
+  float: left;
+  margin: 12px;
+  padding: 5px;
+}
+
+.headlink ul li a{
+  padding: 10px;
+  font-size: 10pt;
+
+  margin: 5px;
+  color: var(--light);
+}
+
+.headlink ul li a:hover{
+  border: 1px dotted var(--light);
+}
+
+/*style sign up*/
+
+/*styling login form*/
+.form-div{
+  width: 320px;
+  height: 470px;
+  background: var(--ash);
+  margin: 0px auto;
+  display: block;
+  padding: 10px;
+}
+
+.form-div form{
+  padding: 10px;
+}
+
+.form-div form h3{
+  text-align: center;
+  font-size: 35pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 20px;
+}
+
+#reseth3{
+  text-align: center;
+  font-size: 30pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 20px;
+}
+
+.form-div form p{
+  padding: 5px;
+  color:  var(--light);
+  font-size: 15pt;
+}
+
+.form-div form p input{
+  padding: 10px;
+  border: none;
+  width: 270px;
+  margin-top: 10px;
+}
+
+.form-div form p input[type=checkbox]{
+  width: 10px;
+}
+
+.form-div form p input[type=submit]{
+  width: 290px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div form p input[type=submit]:hover{
+  background: var(--dgreen);
+  cursor: pointer;
+}
+
+.form-div form p a{
+  color: var(--light);
+  padding: 10px auto;
+}
+
+.form-div form p a:hover{
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.verify-message{
+  width: 320px;
+  margin: 5px auto;
+  color: #f44141;
+}
+
+/*styling signup*/
+.form-div-signup{
+  width: 700px;
+  height: 500px;
+  background: var(--ash);
+  margin: 40px auto;
+  display: block;
+  padding: 10px;
+}
+
+.form-div-signup form{
+  padding: 10px;
+}
+
+
+.form-div-signup form h3{
+  text-align: center;
+  font-size: 30pt;
+  font-weight: lighter;
+  color: var(--light);
+  padding: 5px;
+}
+
+.form-div-signup form p{
+  float: left;
+  width: 48.5%;
+  color:  var(--light);
+  margin: 5px 5px;
+}
+.form-div-signup form p a{
+  color: var(--light);
+  padding: 10px auto;
+}
+
+.form-div-signup form p a:hover{
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.form-div-signup form p input, .form-div-signup form p select{
+  padding: 10px;
+  border: none;
+  width: 280px;
+  margin-top: 2px;
+}
+
+.form-div-signup form p textarea{
+  padding: 10px;
+  border: none;
+  width: 270px;
+  margin-top: 2px;
+}
+
+.form-div-signup form p input[type=submit]{
+  width: 290px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div-signup form p input[type=checkbox]{
+  width: 0px;
+  background: var(--green);
+  color: var(--light);
+}
+
+.form-div-signup form p input[type=submit]:hover{
+  background: var(--dgreen);
+  cursor: pointer;
+}
+
+
+/*styling searcch*/
+.search{
+  width: 700px;
+  background: var(--grey);
+  margin:10px auto;
+  padding: 20px;
+}
+
+.search input{
+  border: none;
+  padding: 10px;
+}
+
+.search input[type=search]{
+  width: 400px;
+}
+
+.search input[type=submit]{
+  width: 95px;
+  color: var(--light);
+  background: var(--dgreen);
+}
+
+.search input[type=submit]:hover{
+  background: var(--green);
+}
+
+.search h4{
+  font-weight: normal;
+  margin: 5px;
+}
+
+
+.search button{
+  border: none;
+  padding: 10px;
+  margin-left: 50px;
+  background: var(--dgreen);
+}
+
+.search button a{
+  text-decoration: none;
+  color: var(--light);
+  padding: 10px;
+}
+
+.search button:hover{
+  background: var(--green);
+}
+
+.search button i{
+  color: var(--light);
+}
+
+
+/*search1*/
+.search1{
+  width: 900px;
+  background: var(--grey);
+  margin:10px auto;
+  padding: 20px;
+}
+
+.search1 input{
+  border: none;
+  padding: 10px;
+}
+
+.search1 input[type=search]{
+  width: 400px;
+}
+
+.search1 input[type=submit]{
+  width: 95px;
+  color: var(--light);
+  background: var(--dgreen);
+}
+
+.search1 input[type=submit]:hover{
+  background: var(--green);
+}
+
+.search1 h4{
+  font-weight: normal;
+  margin: 5px;
+}
+
+.search1 button{
+  border: none;
+  padding: 10px;
+  margin-left: 50px;
+  background: var(--dgreen);
+}
+
+.search1 button a{
+  text-decoration: none;
+  color: var(--light);
+  padding: 10px;
+}
+
+.search1 button:hover{
+  background: var(--green);
+}
+
+.search1 button i{
+  color: var(--light);
+}
+
+/*search2*/
+.search2{
+  width: 700px;
+  background: var(--grey);
+  margin:10px auto;
+  padding: 20px;
+}
+
+.search2 input{
+  border: none;
+  padding: 10px;
+}
+
+.search2 input[type=search]{
+  width: 400px;
+}
+
+.search2 input[type=submit]{
+  width: 95px;
+  color: var(--light);
+  background: var(--dgreen);
+}
+
+.search2 input[type=submit]:hover{
+  background: var(--green);
+}
+
+.search2 h4{
+  font-weight: normal;
+  margin: 5px;
+}
+
+.search2 button{
+  border: none;
+  padding: 10px;
+  margin-left: 50px;
+  background: var(--dgreen);
+}
+
+.search2 button a{
+  text-decoration: none;
+  color: var(--light);
+  padding: 10px;
+}
+
+.search2 button:hover{
+  background: var(--green);
+}
+
+.search2 button i{
+  color: var(--light);
+}
+
+
+.auction{
+  width: 1300px;
+  height: 200px;
+  background: var(--grey);
+  margin: 10px auto;
+}
+
+h5{
+    font-size: 25pt;
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.picture img{
+  width: 250px;
+  height: 180px;
+  padding: 10px;
+
+  float: left;
+}
+
+.description{
+  width: 700px;
+  height: 180px;
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.description table{
+  width: 1000px;
+  text-align: left;
+
+}
+
+.description table thead th{
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+
+}
+
+.description table thead th:first-child{
+  width: 300px;
+}
+
+table tbody tr td{
+  padding: 5px;
+  font-size: 10pt;
+  color: var(--ash);
+}
+
+.auction button{
+  padding: 10px;
+  margin: 20px;
+  border: none;
+}
+
+.auction button a{
+  color: black;
+}
+
+.auction button:hover{
+  background: var(--green);
+}
+
+.red{
+  background: #e33030;
+}
+
+.red:hover{
+  background: #ad1515;
+}
+
+.auction input{
+  width: 80px;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+}
+
+
+.sliderpage{
+  width: 1000px;
+  height: 300px;
+  background: var(--grey);
+  margin: 5px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.slide_img{
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+}
+
+.slide_img img{
+  width: 1000px;
+  height: 300px;
+}
+
+#i1, #i2, #i3{
+  display: none;
+}
+
+
+.prev, .next{
+  width: 50px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  background: var(--ash);
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.prev{
+  left: 0;
+}
+
+.next{
+  right: 0;
+}
+
+.slide_img{
+  z-index: 1;
+}
+
+#i1:checked ~ #one, #i2:checked ~ #two{
+  z-index: 6;
+}
+
+.nav_dots{
+  width: 1000px;
+  height: 11px;
+  bottom: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+
+.dots{
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100px;
+  display: inline-block;
+  background: var(--grey);
+  opacity: 0.5;
+}
+
+.slide_img{
+  z-index: 1;
+}
+
+#i1:checked ~ #one, #i2:checked ~ #two{
+  z-index: 6;
+}
+
+#i1:checked ~ .nav_dots #dot1, #i2:checked ~ .nav_dots #dot2{
+  background: #fff;
+}
+
+/*styling account*/
+.account{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+
+.box1{
+  width: 380px;
+  height: 500px;
+  margin-left: 50px;;
+  background: var(--ash);
+  float: left;
+}
+
+.box1:first-child{
+  height: 300px;
+  margin-left: 500px;
+}
+
+.box1 h4{
+  padding: 20px;
+  font-size: 15pt;
+  font-weight: normal;
+  color: var(--grey);
+}
+
+.box1 p{
+  padding: 10px;
+  color: var(--light);
+  margin: 5px;
+}
+
+.box1 p input{
+  padding: 10px;
+  border: none;
+  width: 330px;
+}
+
+.box1 p input[type=submit]{
+  width: 350px;
+  background: var(--green);
+}
+
+.box1 p input[type=submit]:hover{
+  background: var(--dgreen);
+  color: var(--light);
+}
